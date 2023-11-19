@@ -1,8 +1,8 @@
-const MailQueue = require("./queue/MailQueue");
+// const MailQueue = require("./queue/MailQueue");
 
-MailQueue.add({
-    to: "gdsvahl@inf.ufpel.edu.br",
-    from: "gdsvahl@inf.ufpel.edu.br",
-    subject: "DBA",
-    text: "POC Redis"
-})
+// MailQueue.add({
+//     to: "gdsvahl@inf.ufpel.edu.br",
+//     from: "gdsvahl@inf.ufpel.edu.br",
+//     subject: "DBA",
+//     text: "POC Redis"
+// })
