@@ -1,9 +1,8 @@
-// const MailQueue = require("./queue/MailQueue");
+const fastify = require('fastify');
+const server = fastify();
+const emailRoutes = require('./routes/emailRoutes');
 
-// MailQueue.add({
-//     to: "gdsvahl@inf.ufpel.edu.br",
-//     from: "gdsvahl@inf.ufpel.edu.br",
-//     subject: "DBA",
-//     text: "POC Redis"
-// })
-    
+server.register(emailRoutes);
+
+server.listen({port: process.env.PORT || 3200});
+
