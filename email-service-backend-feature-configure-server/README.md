@@ -1,5 +1,6 @@
 # redis-dba
 
+(configuring server with fastify)
 Projeto final da cadeira de Banco de dados Avançado, busquei realizar um estudo de caso com o banco NoSQL Redis, utilizando o mesmo como message broker em um sistema de disparo de e-mails em lote.
 
 
