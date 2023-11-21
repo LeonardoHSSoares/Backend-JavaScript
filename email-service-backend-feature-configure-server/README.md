@@ -1,6 +1,6 @@
 # redis-dba
 
-Projeto final da cadeira de Banco de dados Avançado realizada no curso de Ciência da Computação na Universidade Federal de Pelotas. Buscamos realizar um estudo de caso com o banco NoSQL Redis, utilizando o mesmo como message broker em um sistema de disparo de e-mails em lote.
+Projeto final da cadeira de Banco de dados Avançado, busquei realizar um estudo de caso com o banco NoSQL Redis, utilizando o mesmo como message broker em um sistema de disparo de e-mails em lote.
 
 
 ## Tecnologias utilizadas
